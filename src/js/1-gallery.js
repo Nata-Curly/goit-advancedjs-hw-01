@@ -4,7 +4,6 @@ import images from '../data/images';
 
 const gallery = document.querySelector('.gallery');
 
-
 function createGAlleryCard({ preview, original, description }) {
   return `<li class="gallery-item">
   <a class="gallery-link" href="${original}">
