@@ -8,14 +8,27 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+    <!-- <load src="./partials/header.html" icon-path="img/sprite.svg#logo" /> -->
 
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li>
+                <a class="nav-link {=$highlight-act}" href="./1-gallery.html"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a class="nav-link {=$highlight-curr}" href="./2-form.html"
+                  >Form</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     </main>
-
-    <load src="./partials/footer.html" />
   </body>
 </html>
